@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareFlush: Biodegradable & Flushable Pads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+        .hero {
+            background: #e8f5e9;
+            padding: 50px 20px;
+            animation: fadeIn 1.5s ease-in;
+        }
+        .hero h1 {
+            color: #2e7d32;
+        }
+        .cta-button {
+            background: #388e3c;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+        .section {
+            padding: 40px 20px;
+            animation: slideIn 1.2s ease-out;
+        }
+        .features div {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            text-align: left;
+        }
+        .problem, .solution {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .problem img, .solution img {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="your-logo-url.png" alt="CareFlush Logo" width="200" style="margin-bottom: 20px;">
+        <h1>The Future of Feminine Care</h1>
+        <p>Sustainable, safe, and hassle-free period care—designed for you and the planet.</p>
+        <button class="cta-button">Take the Survey & Get Early Access!</button>
+    </div>
+    
+    <div class="container problem">
+        <h2>The Problem & Why It Matters</h2>
+        <p>Traditional pads take 500+ years to decompose. Millions end up in landfills. It's time for a change.</p>
+        <p>Beyond sustainability, disposal is inconvenient. Many women face difficulties disposing of used pads in public restrooms, workplaces, or when visiting someone’s home. Flushing provides a discreet, hygienic, and hassle-free alternative.</p>
+            </div>
+    
+    <div class="container solution">
+        <h2>Our Solution: CareFlush Biodegradable & Flushable Pads</h2>
+        <p>We designed a better alternative that’s good for you and the planet.</p>
+        <div class="features">
+            <div>
+                <h3>✅ Flushable & Biodegradable</h3>
+                <p>Breaks down safely, no clogs.</p>
+            </div>
+            <div>
+                <h3>✅ Safe & Chemical-Free</h3>
+                <p>Made with plant-based materials.</p>
+            </div>
+            <div>
+                <h3>✅ Ultra-Absorbent & Leak-Proof</h3>
+                <p>Comfort & protection all day.</p>
+            </div>
+            <div>
+                <h3>✅ Sustainable Choice</h3>
+                <p>Zero plastic waste.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container video-section">
+        <h2>See It in Action</h2>
+        <video width="80%" controls>
+            <source src="your-video-url.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="container survey">
+        <h2>Help Shape the Future of Period Care</h2>
+        <form action="https://forms.gle/your-google-form-link" method="GET" target="_blank">
+            <button type="submit" class="cta-button">Submit & Join</button>
+        </form>
+    </div>
+    
+    <div class="container faq">
+        <h2>FAQs</h2>
+        <div>🔽 How does it dissolve in water?</div>
+        <div>🔽 Is it safe for all plumbing systems?</div>
+        <div>🔽 When will it be available?</div>
+    </div>
+    
+    <div class="footer">
+        <p>Follow us on social media | Contact Us | Sustainability Mission</p>
+    </div>
+</body>
+</html>
