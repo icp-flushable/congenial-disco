@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareFlush: Biodegradable & Flushable Pads</title>
+    <title>Vera: Biodegradable & Flushable Pads</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,6 +22,10 @@
             background: #e8f5e9;
             padding: 50px 20px;
             animation: fadeIn 1.5s ease-in;
+        }
+        .hero img {
+            width: 200px;
+            margin-bottom: 20px;
         }
         .hero h1 {
             color: #2e7d32;
@@ -43,12 +47,6 @@
         .section {
             padding: 40px 20px;
             animation: slideIn 1.2s ease-out;
-        }
-        .features div {
-            display: inline-block;
-            width: 45%;
-            margin: 10px;
-            text-align: left;
         }
         .problem, .solution {
             text-align: center;
@@ -73,8 +71,8 @@
 </head>
 <body>
     <div class="hero">
-        <img src="your-logo-url.png" alt="CareFlush Logo" width="200" style="margin-bottom: 20px;">
-        <h1>The Future of Feminine Care</h1>
+        <img src="your-logo-url.png" alt="Vera Logo">
+        <h1>The Future of Feminine Care: Vera Eco-Friendly Pads</h1>
         <p>Sustainable, safe, and hassle-free period care—designed for you and the planet.</p>
         <button class="cta-button">Take the Survey & Get Early Access!</button>
     </div>
@@ -83,10 +81,11 @@
         <h2>The Problem & Why It Matters</h2>
         <p>Traditional pads take 500+ years to decompose. Millions end up in landfills. It's time for a change.</p>
         <p>Beyond sustainability, disposal is inconvenient. Many women face difficulties disposing of used pads in public restrooms, workplaces, or when visiting someone’s home. Flushing provides a discreet, hygienic, and hassle-free alternative.</p>
-            </div>
+        <img src="problem-comparison.jpg" alt="Traditional vs. Vera Pads">
+    </div>
     
     <div class="container solution">
-        <h2>Our Solution: CareFlush Biodegradable & Flushable Pads</h2>
+        <h2>Our Solution: Vera Biodegradable & Flushable Pads</h2>
         <p>We designed a better alternative that’s good for you and the planet.</p>
         <div class="features">
             <div>
@@ -106,6 +105,7 @@
                 <p>Zero plastic waste.</p>
             </div>
         </div>
+        <img src="flush-tech-diagram.jpg" alt="How It Dissolves in Water">
     </div>
     
     <div class="container video-section">
